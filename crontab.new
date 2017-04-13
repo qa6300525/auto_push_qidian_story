@@ -1,0 +1,1 @@
+*/20 * * * * /usr/bin/python3 /root/auto_push_qidian_story/process.py >/dev/null &
