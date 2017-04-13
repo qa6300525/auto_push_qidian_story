@@ -187,7 +187,7 @@ def _analysis_catalogue(_session, new_chapter, query_URL, xpath_str):
     content = r.content.decode('gbk')
     tree = etree.HTML(content)
     nodes = tree.xpath(xpath_str)
-    # query_URL.find('') 
+    # query_URL.find('') 
     ret = ()
     for i in nodes:
         for chapter in new_chapter:
