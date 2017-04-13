@@ -1,4 +1,7 @@
 # ignore config.py __pycache__
 config.py
 __pycache__
+# 忽略crontab文件
 crontab.*
+# 忽略日志(.info)文件
+*.info

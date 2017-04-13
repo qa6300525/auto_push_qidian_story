@@ -539,3 +539,21 @@
 2017-04-12 08:30:31,324 - __main__ - INFO - 无更新章节！
 2017-04-12 08:30:33,915 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zbzw.com
 2017-04-12 08:30:35,969 - send_email - INFO - 邮件发送成功
+2017-04-13 15:16:52,556 - __main__ - INFO - 正在更新“怒瀚”...
+2017-04-13 15:16:52,557 - __main__ - INFO - 最大max_uuid = 385
+2017-04-13 15:16:52,561 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.qidian.com
+2017-04-13 15:16:52,888 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): book.qidian.com
+2017-04-13 15:16:53,315 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zbzw.com
+2017-04-13 15:16:57,369 - __main__ - INFO - 无更新章节！
+2017-04-13 15:16:57,370 - __main__ - INFO - 正在更新“走进修仙”...
+2017-04-13 15:16:57,372 - __main__ - INFO - 最大max_uuid = 2567
+2017-04-13 15:16:57,374 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.qidian.com
+2017-04-13 15:16:57,480 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): book.qidian.com
+2017-04-13 15:16:59,351 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zbzw.com
+2017-04-13 15:17:00,154 - __main__ - INFO - 无更新章节！
+2017-04-13 15:17:00,155 - __main__ - INFO - 正在更新“银弧”...
+2017-04-13 15:17:00,157 - __main__ - INFO - 最大max_uuid = 1277
+2017-04-13 15:17:00,159 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.qidian.com
+2017-04-13 15:17:00,320 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): book.qidian.com
+2017-04-13 15:17:00,864 - requests.packages.urllib3.connectionpool - INFO - Starting new HTTP connection (1): www.zbzw.com
+2017-04-13 15:17:02,340 - __main__ - INFO - 无更新章节！
