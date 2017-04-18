@@ -41,16 +41,10 @@ def send_email(title, book_name, user_message):
 
 
 def html_Msg(book_name, user_message):
-    tr = '''<tr>
-            <td class="showtxt" width="760" height="56" border="0"
-             align="left" colspan="2"
-             style="vertical-align:bottom;font-family:'Microsoft YaHei';">
-             %s</td>
-        </tr> '''
     text_list = get_text_list(user_message)
-    html_content = tr % str(user_message)
+    html_content = str(user_message) + '<br>'
     for line in text_list:
-        html_content += tr % line
+        html_content += line + '<br>'
     path = utils.get_file_path(__file__)
     with open(path + '/email_template.html', 'r', encoding='utf-8') as f:
         text = f.read()
