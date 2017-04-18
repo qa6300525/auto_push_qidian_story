@@ -42,9 +42,9 @@ def send_email(title, book_name, user_message):
 
 def html_Msg(book_name, user_message):
     text_list = get_text_list(user_message)
-    html_content = str(user_message) + '<br>'
+    html_content = str(user_message) + '<br><br>'
     for line in text_list:
-        html_content += line + '<br>'
+        html_content += line + '<br><br>'
     path = utils.get_file_path(__file__)
     with open(path + '/email_template.html', 'r', encoding='utf-8') as f:
         text = f.read()
